@@ -1,0 +1,31 @@
+.hero {
+  background: center / cover no-repeat url(../../assets/images/Rectangle\ 12.png);
+  background-position-y: 85%;
+  padding-top: 147px 0 166px 0;
+
+  max-width: 2600px;
+  margin: auto;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+   
+  }
+
+   &{
+    padding: 147px 0 166px 0;
+   }
+   &__title{
+    font-size: 72px;
+    font-weight: 400;
+  }
+
+   &__desc{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    color: $TEXT-COLOR;
+    margin:32px 0 64px 0 ;
+  }
+}

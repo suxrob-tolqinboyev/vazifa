@@ -1,0 +1,36 @@
+.history {
+  &__wrapper {
+    display: flex;
+    gap: 32px;
+  }
+  &__card-1 {
+    width: 300px;
+  }
+
+  &__img {
+    padding-top: 32px;
+  }
+
+  &__card-3 {
+    padding: 120px 45px 147px 45px;
+    background: #1C1814;
+
+  }
+
+  &__sup-title {
+    color: $PRIMARI-COLOR;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+  }
+
+  &__desc {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: $TEXT-COLOR;
+  }
+}

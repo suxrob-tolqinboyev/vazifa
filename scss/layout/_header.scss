@@ -1,0 +1,23 @@
+.nav {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+  }
+  &__list {
+    gap: 48px;
+    display: flex;
+  }
+  &__item {
+    text-decoration: none;
+    font-style: 18px;
+    transition: 0.3s ease-in-out;
+    width: 52px;
+
+    &:hover {
+      font-weight: 700;
+      color: $PRIMARI-COLOR;
+    }
+  }
+}

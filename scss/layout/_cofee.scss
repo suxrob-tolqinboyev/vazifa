@@ -1,0 +1,21 @@
+.cofee {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+    margin: 140px 0;
+  }
+
+  &__number {
+    color: $PRIMARI-COLOR;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px;
+  }
+
+  &__desc {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px;
+  }
+}

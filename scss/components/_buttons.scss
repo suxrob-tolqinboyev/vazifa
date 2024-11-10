@@ -1,0 +1,15 @@
+.btn{
+    padding: 24px 40px;
+    background:$PRIMARI-COLOR ;
+    border: 1px solid $PRIMARI-COLOR;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    &:hover{
+        background: #00000000;
+        border: 1px solid $PRIMARI-COLOR;
+        color: $PRIMARI-COLOR;
+    }
+}

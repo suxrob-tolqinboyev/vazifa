@@ -1,0 +1,49 @@
+.product {
+  &__sup-title {
+    padding-left: 540px;
+    color: $PRIMARI-COLOR;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  &__info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+  }
+
+  &__gred {
+    margin: 56px 0;
+    padding: 48px 48px 40px 48px;
+    background: #121315;
+
+  }
+
+  &__ball {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 36px 60px 20px;
+  }
+
+  h3 {
+   text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.8px;
+  }
+
+  &__price{
+    text-align: center;
+    padding-top: 20px
+  }
+
+  &__btn{
+     padding:0 470px 140px  470px;
+    
+  }
+}
